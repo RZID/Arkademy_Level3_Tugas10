@@ -6,8 +6,15 @@
                 'width': '15%',
                 'targets': 5
             }, {
+                'width': '15%',
+                'targets': 4
+            }, {
+                'width': '15%',
+                'targets': 3
+            }, {
                 "searchable": false,
                 "orderable": false,
+                "width": '5%',
                 "targets": 0
             }],
             fixedColumns: {
