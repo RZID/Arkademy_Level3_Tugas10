@@ -39,7 +39,7 @@
 					</div>
 				</div>
 				<div class="rounded bg-white text-dark m-4 p-4">
-					<table id="table" class="display nowrap" cellspacing="0" style="width:100%">
+					<table id="table" class="display" cellspacing="0" style="width:100%">
 						<thead>
 							<tr>
 								<th>No.</th>

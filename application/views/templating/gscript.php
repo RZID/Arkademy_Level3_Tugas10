@@ -3,11 +3,17 @@
     $(document).ready(function() {
         t = $('#table').DataTable({
             "columnDefs": [{
+                'width': '15%',
+                'targets': 5
+            }, {
                 "searchable": false,
                 "orderable": false,
                 "targets": 0
             }],
-            "responsive": true,
+            fixedColumns: {
+                leftColumns: 1,
+                rightColumns: 1
+            },
             "processing": true,
             "serverSide": true,
             "order": [
